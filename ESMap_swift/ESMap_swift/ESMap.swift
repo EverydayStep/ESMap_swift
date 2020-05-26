@@ -51,6 +51,7 @@ public class ESMap: NSObject {
     /// 申请WhenInUse权限
     public func requestWhenInUseAuthorization() {
         CLLocationManager.init().requestWhenInUseAuthorization()
+        
     }
     
     /// 单次定位
