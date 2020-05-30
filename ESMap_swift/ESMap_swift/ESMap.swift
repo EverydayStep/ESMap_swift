@@ -12,7 +12,7 @@ import AMapFoundationKit
 
 public class ESMap: NSObject {
     
-    static let map: ESMap = ESMap()
+    public static let map: ESMap = ESMap()
     
     /// 定位
     fileprivate lazy var locationManager = AMapLocationManager()
