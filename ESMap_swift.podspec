@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ESMap_swift"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A Map Widget for iOS"
 
   # This description is used to generate tags and improve search results.

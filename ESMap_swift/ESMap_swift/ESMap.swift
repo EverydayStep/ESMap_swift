@@ -38,7 +38,7 @@ public class ESMap: NSObject {
     
     /// 注册高德服务
     /// - Parameter key: key
-    public func register(key: String) {
+    public static func register(key: String) {
         AMapServices.shared()?.apiKey = key
         AMapServices.shared()?.enableHTTPS = true
     }
